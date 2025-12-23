@@ -1,0 +1,21 @@
+feature,importance
+num__delay_rate,8.455123
+num__avg_delay_per_flight,0.90978545
+num__arr_del15,0.54731256
+num__arr_flights,0.40559217
+num__late_aircraft_ct,0.10894303
+num__nas_ct,0.07606568
+num__carrier_ct,0.04980747
+cat__year_2020,0.04738465
+num__nas_delay,0.027078507
+num__weather_delay,0.026348222
+cat__carrier_DL,0.024663435
+num__arr_delay,0.022770954
+num__late_aircraft_delay,0.020111501
+cat__carrier_WN,0.019952605
+num__carrier_delay,0.01563143
+cat__carrier_name_Delta Air Lines Inc.,0.01417157
+cat__year_2014,0.012844375
+cat__month_6,0.010000479
+cat__carrier_G4,0.009035573
+cat__carrier_name_Southwest Airlines Co.,0.008895294

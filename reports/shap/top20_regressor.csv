@@ -1,0 +1,21 @@
+feature,importance
+num__avg_delay_per_flight,6.559609
+num__arr_delay,0.23695333
+num__arr_flights,0.23524645
+num__delay_rate,0.06947909
+num__late_aircraft_ct,0.053725615
+num__late_aircraft_delay,0.050737027
+num__arr_del15,0.030792145
+num__carrier_delay,0.023614753
+num__weather_delay,0.022346457
+num__carrier_ct,0.018671542
+num__nas_ct,0.016526904
+num__nas_delay,0.009159054
+num__weather_ct,0.008101828
+cat__carrier_name_Envoy Air,0.005159699
+num__windspeed_10m_max,0.004689316
+num__arr_cancelled,0.0028399376
+num__precipitation_sum,0.0026382187
+cat__airport_LGB,0.0025051287
+num__temperature_2m_mean,0.0023512014
+num__arr_diverted,0.0021293843

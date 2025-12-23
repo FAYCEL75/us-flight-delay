@@ -1,0 +1,34 @@
+feature,clf_shap,reg_shap
+num__delay_rate,4.226361,7.085554
+num__avg_delay_per_flight,0.2857178,0.0
+cat__carrier_WN,0.06284244,0.0
+num__late_aircraft_delay_per_flight,0.05988502,2.7835429
+num__nas_delay_per_flight,0.057163652,5.3238826
+num__arr_flights,0.042336468,6.934354
+num__carrier_delay_per_flight,0.038942304,7.949002
+cat__carrier_9E,0.036355365,0.0
+cat__carrier_HA,0.029180896,0.0
+cat__carrier_name_Southwest Airlines Co.,0.010787716,0.0
+num__year,0.0072806566,1.8154281
+num__weather_delay_per_flight,0.005575101,3.439955
+cat__carrier_name_Hawaiian Airlines Inc.,0.0054307124,0.0
+cat__carrier_name_Endeavor Air Inc.,0.004759528,0.0
+num__cancel_rate,0.0043008802,0.0
+cat__carrier_AS,0.0032173248,0.0
+cat__carrier_US,0.0023440542,0.0
+cat__carrier_AA,0.0015197919,0.0
+num__divert_rate,0.0014069236,0.0
+cat__carrier_EV,0.0012905569,0.0
+cat__airport_IPT,0.0,40.51174
+cat__airport_IFP,0.0,6.483999
+cat__airport_PPG,0.0,4.3220663
+cat__airport_ILG,0.0,3.1294913
+cat__airport_XWA,0.0,2.017379
+num__month,0.0,1.9057485
+cat__airport_OWB,0.0,1.6280601
+cat__airport_MLI,0.0,1.6177666
+cat__airport_JNU,0.0,1.3253065
+cat__airport_SMX,0.0,1.2799959
+cat__airport_LCH,0.0,0.8273715
+cat__airport_JAN,0.0,0.71397865
+cat__airport_BOS,0.0,0.64236015

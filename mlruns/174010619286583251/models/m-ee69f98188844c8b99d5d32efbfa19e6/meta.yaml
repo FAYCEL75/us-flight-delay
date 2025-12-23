@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/Balerion/Desktop/us-flights-delay/mlruns/174010619286583251/models/m-ee69f98188844c8b99d5d32efbfa19e6/artifacts
+creation_timestamp: 1765389284118
+experiment_id: '174010619286583251'
+last_updated_timestamp: 1765389289212
+model_id: m-ee69f98188844c8b99d5d32efbfa19e6
+model_type: null
+name: model
+source_run_id: 192d60c5fec941b2bc52c23d863e9f45
+status: 2
+status_message: null

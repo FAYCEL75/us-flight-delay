@@ -1,0 +1,21 @@
+feature,mean_abs_shap
+num__delay_rate,4.226361
+num__avg_delay_per_flight,0.2857178
+cat__carrier_WN,0.06284244
+num__late_aircraft_delay_per_flight,0.05988502
+num__nas_delay_per_flight,0.057163652
+num__arr_flights,0.042336468
+num__carrier_delay_per_flight,0.038942304
+cat__carrier_9E,0.036355365
+cat__carrier_HA,0.029180896
+cat__carrier_name_Southwest Airlines Co.,0.010787716
+num__year,0.0072806566
+num__weather_delay_per_flight,0.005575101
+cat__carrier_name_Hawaiian Airlines Inc.,0.0054307124
+cat__carrier_name_Endeavor Air Inc.,0.004759528
+num__cancel_rate,0.0043008802
+cat__carrier_AS,0.0032173248
+cat__carrier_US,0.0023440542
+cat__carrier_AA,0.0015197919
+num__divert_rate,0.0014069236
+cat__carrier_EV,0.0012905569

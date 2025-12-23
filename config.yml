@@ -1,0 +1,85 @@
+# ============================================================
+# config.yml — Configuration centrale du projet US-FLIGHTS-DELAY
+# ============================================================
+
+project:
+  name: "us_flights_delay"
+  description: "Prediction des retards d'avion aux USA avec integration meteo, MLflow, API et Streamlit."
+
+paths:
+  # Chemins RELATIFS au ROOT du projet (us-flights-delay/)
+  data_raw: "data/raw"
+  data_processed: "data/processed"
+  data_weather: "data/weather"
+  models: "models"
+  reports: "reports"
+  mlruns: "mlruns"
+
+mlflow:
+  # Nom unique et stable de l'experiment MLflow
+  experiment_name: "us_flights_delay"
+
+  # Noms des runs finaux (pour les retrouver facilement dans le tracking)
+  classifier_run_name: "xgb_classifier_optuna_weather"
+  regressor_run_name: "xgb_regressor_optuna_weather"
+
+  # URIs :
+  # - LOCAL : sera calculé automatiquement dans config.py à partir de mlruns (file:///.../us-flights-delay/mlruns)
+  # - DOCKER : à utiliser dans .env pour les conteneurs (MLFLOW_TRACKING_URI=file:/mlruns)
+  tracking_uri_local: "auto"          # laissé à 'auto', géré par config.py
+  tracking_uri_docker: "file:/mlruns" # pour usage dans Docker (via variable d'environnement)
+
+training:
+  # Cible classification : high_delay_risk (obligatoire)
+  target_classification: "high_delay_risk"
+
+  # Cible regression : avg_delay_per_flight (obligatoire)
+  target_regression: "avg_delay_per_flight"
+
+  # Seuil pour high_delay_risk = (arr_del15 / arr_flights > seuil)
+  # Tu peux l'ajuster, mais le code le lira ici.
+  high_delay_rate_threshold: 0.25
+
+  # Paramètres génériques pour Optuna (utiles pour train_optuna.py)
+  optuna:
+    n_trials_classifier: 10
+    n_trials_regressor: 10
+    timeout_seconds_classifier: null
+    timeout_seconds_regressor: null
+
+weather:
+  provider: "open-meteo"
+
+  # Répertoire de cache pour les réponses API (JSON, parquet...)
+  cache_dir: "data/weather"
+
+  # Variables quotidiennes à récupérer via Open-Meteo
+  # (nous dériverons ensuite des features type temp_mean, precip_sum, windspeed_max, etc.)
+  daily_variables:
+    - "temperature_2m_mean"
+    - "precipitation_sum"
+    - "windspeed_10m_max"
+
+  # Paramètres de robustesse pour l'appel API
+  timeout_seconds: 30
+  max_retries: 3
+  retry_backoff_seconds: 5
+
+  # Fenêtre temporelle (si besoin d'ajuster dans le futur)
+  # Ici, on considère qu'on travaille par mois (year, month)
+  aggregation_level: "monthly"
+
+aws:
+  enabled: true
+  s3_bucket: "us-flights-delay"      
+  s3_models_prefix: "models"
+  s3_mlruns_prefix: "mlruns"
+api:
+  # Configuration de l'API FastAPI
+  host: "0.0.0.0"
+  port: 8000
+
+app:
+  # Configuration de l'app Streamlit
+  host: "0.0.0.0"
+  port: 8501

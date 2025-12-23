@@ -1,0 +1,53 @@
+services:
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: flights_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./models:/app/models
+      - ./mlruns:/app/mlruns
+      - ./config.yml:/app/config.yml
+      - ./data:/app/data
+      - ./reports:/app/reports
+    environment:
+      MLFLOW_TRACKING_URI: file:/app/mlruns
+    depends_on:
+      - mlflow_ui
+    env_file:
+      - .env
+    restart: unless-stopped
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.app
+    container_name: flights_app
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./models:/app/models
+      - ./mlruns:/app/mlruns
+      - ./config.yml:/app/config.yml
+      - ./data:/app/data
+      - ./reports:/app/reports
+    environment:
+      API_URL: "http://flights_api:8000/api/predict"
+    depends_on:
+      - api
+    restart: unless-stopped
+
+  mlflow_ui:
+    build:
+      context: .
+      dockerfile: Dockerfile.mlflow
+    container_name: flights_mlflow
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./mlruns:/app/mlruns
+      - ./mlflow:/app/mlflow
+    restart: unless-stopped

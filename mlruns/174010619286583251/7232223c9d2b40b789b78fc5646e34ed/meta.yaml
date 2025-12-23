@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/Balerion/Desktop/us-flights-delay/mlruns/174010619286583251/7232223c9d2b40b789b78fc5646e34ed/artifacts
+end_time: 1765383178779
+entry_point_name: ''
+experiment_id: '174010619286583251'
+lifecycle_stage: active
+run_id: 7232223c9d2b40b789b78fc5646e34ed
+run_name: xgb_regressor_optuna_weather
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1765383173748
+status: 3
+tags: []
+user_id: Balerion

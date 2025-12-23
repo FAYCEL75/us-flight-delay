@@ -1,0 +1,892 @@
+feature,clf_importance,reg_importance
+num__arr_flights,0.40559217,0.23524645
+num__arr_del15,0.54731256,0.030792145
+num__carrier_ct,0.04980747,0.018671542
+num__weather_ct,0.008725903,0.008101828
+num__nas_ct,0.07606568,0.016526904
+num__security_ct,0.00016470705,0.00075146544
+num__late_aircraft_ct,0.10894303,0.053725615
+num__arr_cancelled,0.0042054704,0.0028399376
+num__arr_diverted,0.0023442328,0.0021293843
+num__arr_delay,0.022770954,0.23695333
+num__carrier_delay,0.01563143,0.023614753
+num__weather_delay,0.026348222,0.022346457
+num__nas_delay,0.027078507,0.009159054
+num__security_delay,0.0,0.00024766035
+num__late_aircraft_delay,0.020111501,0.050737027
+num__temperature_2m_mean,0.00044665398,0.0023512014
+num__precipitation_sum,0.003042242,0.0026382187
+num__windspeed_10m_max,0.00016330277,0.004689316
+num__delay_rate,8.455123,0.06947909
+num__avg_delay_per_flight,0.90978545,6.559609
+cat__carrier_9E,0.0066527072,0.00027519235
+cat__carrier_AA,0.001454851,0.0
+cat__carrier_AS,0.0010840218,0.0
+cat__carrier_B6,0.0030185774,0.0
+cat__carrier_DL,0.024663435,0.001601037
+cat__carrier_EV,0.0011275955,0.00097381376
+cat__carrier_F9,0.006618369,9.424296e-05
+cat__carrier_FL,0.0,0.0
+cat__carrier_G4,0.009035573,0.0012455934
+cat__carrier_HA,0.0011272585,0.0007021236
+cat__carrier_MQ,0.0018117364,0.0008672639
+cat__carrier_NK,0.00012745472,9.4000956e-05
+cat__carrier_OH,0.00032492366,3.8110247e-05
+cat__carrier_OO,0.0026606722,0.0007718717
+cat__carrier_QX,0.0,0.0
+cat__carrier_UA,0.0,0.0006051763
+cat__carrier_US,0.00018250589,0.0001094246
+cat__carrier_VX,7.3453746e-05,0.0
+cat__carrier_WN,0.019952605,0.0
+cat__carrier_YV,0.00010519312,0.0004904548
+cat__carrier_YX,0.0,4.862975e-05
+cat__carrier_name_AirTran Airways Corporation,0.0,0.0
+cat__carrier_name_Alaska Airlines Inc.,0.0006464704,0.0
+cat__carrier_name_Allegiant Air,0.0,0.0
+cat__carrier_name_American Airlines Inc.,0.0,0.0
+cat__carrier_name_American Eagle Airlines Inc.,0.0,0.0
+cat__carrier_name_Delta Air Lines Inc.,0.01417157,0.0
+cat__carrier_name_Endeavor Air Inc.,0.0014643684,0.0
+cat__carrier_name_Envoy Air,0.0,0.005159699
+cat__carrier_name_ExpressJet Airlines Inc.,0.00031483042,0.0012805326
+cat__carrier_name_ExpressJet Airlines LLC,0.0,0.00011371879
+cat__carrier_name_Frontier Airlines Inc.,0.004583632,0.0
+cat__carrier_name_Hawaiian Airlines Inc.,0.00033196041,0.0
+cat__carrier_name_Horizon Air,0.0,0.0
+cat__carrier_name_JetBlue Airways,0.002413132,0.0
+cat__carrier_name_Mesa Airlines Inc.,0.0,0.0
+cat__carrier_name_PSA Airlines Inc.,0.0008133897,0.0
+cat__carrier_name_Republic Airline,0.0020848503,0.0
+cat__carrier_name_SkyWest Airlines Inc.,0.0039178487,0.0
+cat__carrier_name_Southwest Airlines Co.,0.008895294,0.0
+cat__carrier_name_Spirit Air Lines,0.0,0.0
+cat__carrier_name_US Airways Inc.,0.00020317263,0.0
+cat__carrier_name_United Air Lines Inc.,0.00112108,0.0
+cat__carrier_name_Virgin America,0.0,0.0
+cat__airport_ABE,0.0,0.0
+cat__airport_ABI,0.0,0.0
+cat__airport_ABQ,0.0,0.0
+cat__airport_ABR,0.0,0.0
+cat__airport_ABY,0.0,0.0
+cat__airport_ACK,0.0,0.0
+cat__airport_ACT,0.0,0.0
+cat__airport_ACV,0.0,7.496276e-05
+cat__airport_ACY,0.0,0.0
+cat__airport_ADK,5.6311423e-05,0.0
+cat__airport_ADQ,0.0,0.0
+cat__airport_AEX,0.0,0.0
+cat__airport_AGS,3.0119752e-05,0.0
+cat__airport_AKN,0.0,0.0
+cat__airport_ALB,0.0,0.0
+cat__airport_ALO,0.0,0.0
+cat__airport_ALS,0.0,0.0
+cat__airport_ALW,0.0,0.0
+cat__airport_AMA,0.0,0.0
+cat__airport_ANC,8.3914776e-05,0.0
+cat__airport_APN,0.0,0.0
+cat__airport_ART,0.0,0.0
+cat__airport_ASE,0.0,0.0
+cat__airport_ATL,0.0,0.0
+cat__airport_ATW,0.0,0.0
+cat__airport_ATY,0.0,0.0
+cat__airport_AUS,0.0,0.0
+cat__airport_AVL,0.0,0.0
+cat__airport_AVP,0.0,0.0
+cat__airport_AZA,0.0,0.0
+cat__airport_AZO,0.0,0.0
+cat__airport_BDL,0.0,0.0
+cat__airport_BET,0.0,0.0
+cat__airport_BFF,0.0,0.0
+cat__airport_BFL,0.0,0.0
+cat__airport_BFM,0.0,0.0
+cat__airport_BGM,0.0,0.0
+cat__airport_BGR,0.0,0.0
+cat__airport_BHM,0.0,3.9276845e-05
+cat__airport_BIH,0.0,0.0
+cat__airport_BIL,0.0,0.0
+cat__airport_BIS,0.0,0.0
+cat__airport_BJI,0.0,0.0
+cat__airport_BKG,0.0,0.0
+cat__airport_BLI,0.0,0.0
+cat__airport_BLV,0.0,0.0
+cat__airport_BMI,0.0,0.0
+cat__airport_BNA,0.0,0.0
+cat__airport_BOI,0.0,0.0
+cat__airport_BOS,0.0,0.00026742593
+cat__airport_BPT,0.0,0.0
+cat__airport_BQK,0.0,0.0
+cat__airport_BQN,0.0,0.0002084898
+cat__airport_BRD,0.0,0.0
+cat__airport_BRO,0.0,0.0
+cat__airport_BRW,0.0,0.0
+cat__airport_BTM,0.0,0.0
+cat__airport_BTR,0.0,0.0
+cat__airport_BTV,0.0,0.00016702668
+cat__airport_BUF,0.0,0.0
+cat__airport_BUR,0.0,0.0
+cat__airport_BWI,0.0,0.0
+cat__airport_BZN,0.0,0.0
+cat__airport_CAE,0.0,0.0
+cat__airport_CAK,0.0,0.0
+cat__airport_CDB,0.0,0.0
+cat__airport_CDC,0.0,0.0
+cat__airport_CDV,0.0,0.0
+cat__airport_CEC,0.0,0.0
+cat__airport_CGI,0.0,0.0
+cat__airport_CHA,0.0,0.0
+cat__airport_CHO,0.0,0.0
+cat__airport_CHS,0.0,0.0
+cat__airport_CIC,0.0,0.0
+cat__airport_CID,0.0,0.0
+cat__airport_CIU,0.0,0.0
+cat__airport_CKB,0.0,0.0
+cat__airport_CLD,0.0,0.0
+cat__airport_CLE,0.0,0.0
+cat__airport_CLL,0.0,0.0
+cat__airport_CLT,0.0,0.0
+cat__airport_CMH,0.0,0.0
+cat__airport_CMI,0.0,0.0
+cat__airport_CMX,0.0,0.0
+cat__airport_CNY,0.0,0.0
+cat__airport_COD,0.0,0.0
+cat__airport_COS,0.0,0.0
+cat__airport_COU,0.0,0.0
+cat__airport_CPR,0.0,0.0
+cat__airport_CRP,0.0,0.0
+cat__airport_CRW,0.0,3.0896073e-05
+cat__airport_CSG,0.0,0.0
+cat__airport_CVG,0.0,0.0
+cat__airport_CWA,0.0,0.0
+cat__airport_CYS,0.0,0.0
+cat__airport_DAB,0.0,0.0
+cat__airport_DAL,0.0,0.0
+cat__airport_DAY,0.0,0.0
+cat__airport_DBQ,0.0,0.0
+cat__airport_DCA,0.0,0.0
+cat__airport_DDC,0.0,0.0
+cat__airport_DEC,0.0,0.0
+cat__airport_DEN,0.0,0.0
+cat__airport_DFW,0.0,0.0
+cat__airport_DHN,0.0,0.0
+cat__airport_DIK,0.0,0.0
+cat__airport_DLG,0.0,0.0
+cat__airport_DLH,0.0,0.0
+cat__airport_DRO,0.0,0.0
+cat__airport_DRT,0.0,0.0
+cat__airport_DSM,0.0,0.0
+cat__airport_DTW,0.0,0.0
+cat__airport_DVL,0.0,0.0
+cat__airport_EAR,0.0,0.0
+cat__airport_EAT,0.0,0.0
+cat__airport_EAU,0.0,0.0
+cat__airport_ECP,0.0,0.0
+cat__airport_EGE,0.0,0.0
+cat__airport_EKO,0.0,0.0
+cat__airport_ELM,0.0,0.0
+cat__airport_ELP,0.0,0.00075078045
+cat__airport_ERI,0.0,0.0
+cat__airport_ESC,0.0,0.0
+cat__airport_EUG,0.0,0.0
+cat__airport_EVV,0.0,0.0
+cat__airport_EWN,0.0,0.0
+cat__airport_EWR,0.0,0.0
+cat__airport_EYW,0.0,0.0
+cat__airport_FAI,0.0,0.0
+cat__airport_FAR,0.0,0.0
+cat__airport_FAT,0.0,0.0
+cat__airport_FAY,0.0,0.0
+cat__airport_FCA,0.0,0.0
+cat__airport_FLG,0.0,0.00015566449
+cat__airport_FLL,0.0,1.595112e-05
+cat__airport_FLO,0.0,0.0
+cat__airport_FNL,0.0,0.0
+cat__airport_FNT,0.0,0.0
+cat__airport_FOD,0.0,0.0
+cat__airport_FOE,0.0,0.0
+cat__airport_FSD,0.0,2.7233244e-05
+cat__airport_FSM,0.0,0.0
+cat__airport_FWA,0.0,0.0
+cat__airport_GCC,0.0,0.0
+cat__airport_GCK,0.0,0.0
+cat__airport_GEG,0.0,0.0
+cat__airport_GFK,0.0,0.0
+cat__airport_GGG,0.0,0.0
+cat__airport_GJT,0.0,0.00022998004
+cat__airport_GNV,0.0,0.0
+cat__airport_GPT,0.0,0.0
+cat__airport_GRB,0.0,0.0
+cat__airport_GRI,0.0,0.0
+cat__airport_GRK,0.0,0.0
+cat__airport_GRR,0.0,0.0
+cat__airport_GSO,0.0,0.0
+cat__airport_GSP,0.0,0.0
+cat__airport_GST,0.0,0.0
+cat__airport_GTF,0.0,0.0
+cat__airport_GTR,0.0,0.0
+cat__airport_GUC,0.0,0.0
+cat__airport_GUM,0.0,0.0
+cat__airport_HDN,0.0,0.0
+cat__airport_HGR,0.0,0.0
+cat__airport_HHH,0.0,0.0
+cat__airport_HIB,0.0,0.00026763036
+cat__airport_HLN,0.0,0.0
+cat__airport_HNL,0.0,0.0
+cat__airport_HOB,0.0,0.0
+cat__airport_HOU,0.0,0.0
+cat__airport_HPN,0.0,0.0
+cat__airport_HRL,0.0,0.0
+cat__airport_HSV,0.0,3.3398126e-05
+cat__airport_HTS,0.0,0.0
+cat__airport_HVN,0.0,0.0
+cat__airport_HYA,0.0,0.0
+cat__airport_HYS,0.0,0.0
+cat__airport_IAD,0.0,0.0
+cat__airport_IAG,0.0,0.0
+cat__airport_IAH,0.0,0.0
+cat__airport_ICT,0.0,0.0
+cat__airport_IDA,0.0,0.0
+cat__airport_IFP,0.0,0.0
+cat__airport_ILG,0.0,0.0
+cat__airport_ILM,0.0,0.0
+cat__airport_IMT,0.0,0.0
+cat__airport_IND,3.8848186e-05,0.0
+cat__airport_INL,0.0,0.0
+cat__airport_IPT,0.0,0.0
+cat__airport_ISN,0.0,0.0
+cat__airport_ISP,0.0,0.0
+cat__airport_ITH,0.0,0.0
+cat__airport_ITO,0.0,0.0
+cat__airport_IYK,0.0,0.0
+cat__airport_JAC,0.0,0.0
+cat__airport_JAN,0.0,0.0
+cat__airport_JAX,0.0,0.00019351128
+cat__airport_JFK,3.447772e-05,0.0
+cat__airport_JLN,0.0,0.0
+cat__airport_JMS,0.0,0.00027330755
+cat__airport_JNU,0.0,0.0
+cat__airport_JST,0.0,0.0
+cat__airport_KOA,0.0,0.0
+cat__airport_KTN,0.0,0.0
+cat__airport_LAN,0.0,0.0
+cat__airport_LAR,0.0,0.0
+cat__airport_LAS,0.0,0.0
+cat__airport_LAW,0.0,0.0
+cat__airport_LAX,0.0,0.0
+cat__airport_LBB,0.0,0.0
+cat__airport_LBE,0.0,0.0
+cat__airport_LBF,0.0,0.0
+cat__airport_LBL,0.0,0.0
+cat__airport_LCH,0.0,0.0
+cat__airport_LCK,0.0,0.0
+cat__airport_LEX,0.0,0.0
+cat__airport_LFT,0.0,0.0
+cat__airport_LGA,0.0,0.0
+cat__airport_LGB,0.0,0.0025051287
+cat__airport_LIH,0.0,0.0
+cat__airport_LIT,0.0,0.0
+cat__airport_LMT,0.0,0.0
+cat__airport_LNK,0.0,0.0
+cat__airport_LRD,0.0,0.0
+cat__airport_LSE,0.0,0.0
+cat__airport_LWB,0.0,0.0
+cat__airport_LWS,0.0,0.0
+cat__airport_LYH,0.0,0.0
+cat__airport_MAF,0.0,0.0
+cat__airport_MBS,0.0,0.0
+cat__airport_MCI,0.0,0.0
+cat__airport_MCO,0.0,9.6582706e-05
+cat__airport_MCW,0.0,0.0
+cat__airport_MDT,0.0,0.0
+cat__airport_MDW,0.0,0.0
+cat__airport_MEI,0.0,0.0
+cat__airport_MEM,0.0,0.0
+cat__airport_MFE,0.0,0.0
+cat__airport_MFR,0.0,0.0
+cat__airport_MGM,0.0,0.0
+cat__airport_MHK,0.0,0.0
+cat__airport_MHT,0.0,0.0
+cat__airport_MIA,0.0,2.6092976e-05
+cat__airport_MKE,0.0,0.0
+cat__airport_MKG,0.0,0.0
+cat__airport_MLB,0.0,0.0
+cat__airport_MLI,0.0,0.0005386465
+cat__airport_MLU,0.0,0.0
+cat__airport_MMH,0.0,0.0
+cat__airport_MOB,0.0,0.0
+cat__airport_MOD,0.0,0.0
+cat__airport_MOT,0.0,0.0
+cat__airport_MQT,0.0,0.0
+cat__airport_MRY,0.0,0.0
+cat__airport_MSN,0.0,0.0
+cat__airport_MSO,0.0,0.0
+cat__airport_MSP,0.0,0.0
+cat__airport_MSY,0.0,0.0
+cat__airport_MTJ,0.0,0.0
+cat__airport_MVY,0.0,0.0
+cat__airport_MYR,0.0,0.0
+cat__airport_OAJ,0.0,0.0
+cat__airport_OAK,0.0,0.0
+cat__airport_OGD,0.0,0.0
+cat__airport_OGG,5.9197075e-05,0.0
+cat__airport_OGS,0.0,0.0
+cat__airport_OKC,0.0,0.0
+cat__airport_OMA,0.0,0.0
+cat__airport_OME,0.0,0.0
+cat__airport_ONT,0.0,0.0
+cat__airport_ORD,0.0,0.0
+cat__airport_ORF,0.0,0.0
+cat__airport_ORH,0.0,0.0
+cat__airport_OTH,0.0,0.0
+cat__airport_OTZ,0.0,0.0
+cat__airport_OWB,0.0,0.0
+cat__airport_PAE,0.0,0.0
+cat__airport_PAH,0.0,0.0
+cat__airport_PBG,0.0,0.000117993884
+cat__airport_PBI,0.0,0.0
+cat__airport_PDX,0.0,0.0
+cat__airport_PGD,0.0,0.0
+cat__airport_PGV,0.0,0.0
+cat__airport_PHF,0.0,0.0
+cat__airport_PHL,0.0,9.0350935e-05
+cat__airport_PHX,0.0,0.0
+cat__airport_PIA,0.0,0.0
+cat__airport_PIB,0.0,0.0
+cat__airport_PIE,0.0,0.0
+cat__airport_PIH,0.0,0.0
+cat__airport_PIR,0.0,0.0
+cat__airport_PIT,0.0,0.0
+cat__airport_PLN,0.0,0.0
+cat__airport_PNS,0.0,0.0
+cat__airport_PPG,0.0,0.00084721064
+cat__airport_PRC,0.0,0.0
+cat__airport_PSC,0.0,0.0
+cat__airport_PSE,0.0,0.0
+cat__airport_PSG,0.0,0.0
+cat__airport_PSM,0.0,0.0
+cat__airport_PSP,0.0,0.0
+cat__airport_PUB,0.0,0.0
+cat__airport_PUW,0.0,0.0
+cat__airport_PVD,0.0,0.0
+cat__airport_PVU,0.0,0.0
+cat__airport_PWM,0.0,0.0
+cat__airport_RAP,0.0,0.00013372162
+cat__airport_RDD,0.0,0.0
+cat__airport_RDM,0.0,0.0
+cat__airport_RDU,0.0,0.0
+cat__airport_RFD,0.0,0.0
+cat__airport_RHI,0.0,0.0
+cat__airport_RIC,0.0,0.0
+cat__airport_RIW,0.0,0.0
+cat__airport_RKS,0.0,0.0
+cat__airport_RNO,0.0,0.0
+cat__airport_ROA,0.0,0.0
+cat__airport_ROC,0.0,0.0
+cat__airport_ROW,0.0,0.0
+cat__airport_RST,0.0,0.0
+cat__airport_RSW,0.0,0.0
+cat__airport_SAF,0.0,0.0
+cat__airport_SAN,0.0,0.0
+cat__airport_SAT,0.0,0.0
+cat__airport_SAV,0.0,0.0
+cat__airport_SBA,0.0,0.0
+cat__airport_SBN,0.0,0.0
+cat__airport_SBP,0.0,0.0
+cat__airport_SCC,0.0,0.0
+cat__airport_SCE,0.0,0.0
+cat__airport_SCK,0.0,0.0
+cat__airport_SDF,0.0,0.0
+cat__airport_SEA,0.0,0.0
+cat__airport_SFB,0.0,0.0
+cat__airport_SFO,0.0,0.0
+cat__airport_SGF,0.0,0.0
+cat__airport_SGU,0.0,0.0
+cat__airport_SHD,0.0,0.0
+cat__airport_SHR,0.0,0.0
+cat__airport_SHV,0.0,0.0
+cat__airport_SIT,0.0,0.0
+cat__airport_SJC,0.0,0.0
+cat__airport_SJT,0.0,0.0
+cat__airport_SJU,0.0,0.0
+cat__airport_SLC,0.0,0.0
+cat__airport_SLN,0.0,0.0
+cat__airport_SMF,0.0,4.5484954e-05
+cat__airport_SMX,0.0,0.0
+cat__airport_SNA,3.9330203e-05,0.0
+cat__airport_SPI,0.0,0.0
+cat__airport_SPN,0.0,0.0
+cat__airport_SPS,0.0,0.0
+cat__airport_SRQ,0.0,3.9045473e-05
+cat__airport_STC,0.0,0.0
+cat__airport_STL,0.0,0.0
+cat__airport_STS,0.0,0.0
+cat__airport_STT,0.0,0.0
+cat__airport_STX,0.0,0.0
+cat__airport_SUN,0.0,0.0
+cat__airport_SUX,0.0,0.0
+cat__airport_SWF,0.0,0.0
+cat__airport_SWO,0.0,0.0
+cat__airport_SYR,0.0,0.0
+cat__airport_TBN,0.0,0.0
+cat__airport_TLH,0.0,0.0
+cat__airport_TOL,0.0,0.0
+cat__airport_TPA,0.0,0.0
+cat__airport_TRI,0.0,0.0
+cat__airport_TTN,0.0,0.0
+cat__airport_TUL,0.0,0.0
+cat__airport_TUS,3.6707454e-05,0.0
+cat__airport_TVC,0.0,0.0001556923
+cat__airport_TWF,0.0,0.0
+cat__airport_TXK,0.0,0.0
+cat__airport_TYR,0.0,0.0
+cat__airport_TYS,0.0,0.0
+cat__airport_UIN,0.0,0.0
+cat__airport_USA,0.0,0.0
+cat__airport_UST,0.0,0.0
+cat__airport_VCT,0.0,0.0
+cat__airport_VEL,0.0,0.0
+cat__airport_VLD,0.0,0.0
+cat__airport_VPS,0.0,0.0
+cat__airport_WRG,0.0,0.0
+cat__airport_WYS,0.0,0.0
+cat__airport_XNA,0.0,0.0
+cat__airport_XWA,0.0,0.00019525166
+cat__airport_YAK,0.0,0.0
+cat__airport_YKM,0.0,0.0
+cat__airport_YUM,0.0,0.0
+"cat__airport_name_Aberdeen, SD: Aberdeen Regional",0.0,0.0
+"cat__airport_name_Abilene, TX: Abilene Regional",0.0,0.0
+"cat__airport_name_Adak Island, AK: Adak",0.0,0.0
+"cat__airport_name_Aguadilla, PR: Rafael Hernandez",7.051672e-05,0.0
+"cat__airport_name_Akron, OH: Akron-Canton Regional",0.0,0.0
+"cat__airport_name_Alamosa, CO: San Luis Valley Regional/Bergman Field",0.0,0.0
+"cat__airport_name_Albany, GA: Southwest Georgia Regional",0.0,0.0
+"cat__airport_name_Albany, NY: Albany International",0.0,0.0
+"cat__airport_name_Albuquerque, NM: Albuquerque International Sunport",0.0,0.0
+"cat__airport_name_Alexandria, LA: Alexandria International",0.0,0.0
+"cat__airport_name_Allentown/Bethlehem/Easton, PA: Lehigh Valley International",0.0,0.0
+"cat__airport_name_Alpena, MI: Alpena County Regional",0.0,0.0
+"cat__airport_name_Amarillo, TX: Rick Husband Amarillo International",0.0,0.0
+"cat__airport_name_Anchorage, AK: Ted Stevens Anchorage International",0.0,0.0
+"cat__airport_name_Appleton, WI: Appleton International",0.0,0.0
+"cat__airport_name_Arcata/Eureka, CA: California Redwood Coast Humboldt County",0.0,0.0
+"cat__airport_name_Asheville, NC: Asheville Regional",0.0,0.0
+"cat__airport_name_Ashland, WV: Tri-State/Milton J. Ferguson Field",0.0,0.0
+"cat__airport_name_Aspen, CO: Aspen Pitkin County Sardy Field",0.0,0.0
+"cat__airport_name_Atlanta, GA: Hartsfield-Jackson Atlanta International",0.0,0.0
+"cat__airport_name_Atlantic City, NJ: Atlantic City International",0.0,0.0
+"cat__airport_name_Augusta, GA: Augusta Regional at Bush Field",0.0,0.0
+"cat__airport_name_Austin, TX: Austin - Bergstrom International",0.0,0.0
+"cat__airport_name_Bakersfield, CA: Meadows Field",0.0,0.0
+"cat__airport_name_Baltimore, MD: Baltimore/Washington International Thurgood Marshall",0.0,0.0
+"cat__airport_name_Bangor, ME: Bangor International",0.0,0.0
+"cat__airport_name_Barrow, AK: Wiley Post/Will Rogers Memorial",0.0,0.0
+"cat__airport_name_Baton Rouge, LA: Baton Rouge Metropolitan/Ryan Field",0.0,0.0
+"cat__airport_name_Beaumont/Port Arthur, TX: Jack Brooks Regional",0.0,0.0
+"cat__airport_name_Belleville, IL: Scott AFB MidAmerica St Louis",0.0,0.0
+"cat__airport_name_Belleville, IL: Scott AFB/MidAmerica",0.0,0.0
+"cat__airport_name_Bellingham, WA: Bellingham International",4.2914704e-05,0.0
+"cat__airport_name_Bemidji, MN: Bemidji Regional",0.0,0.0
+"cat__airport_name_Bend/Redmond, OR: Roberts Field",0.0,0.0
+"cat__airport_name_Bethel, AK: Bethel Airport",0.0,0.0
+"cat__airport_name_Billings, MT: Billings Logan International",3.8341375e-05,0.0
+"cat__airport_name_Binghamton, NY: Greater Binghamton/Edwin A. Link Field",0.0,0.0
+"cat__airport_name_Birmingham, AL: Birmingham-Shuttlesworth International",0.0,0.0
+"cat__airport_name_Bishop, CA: Bishop Airport",0.0,0.0
+"cat__airport_name_Bismarck/Mandan, ND: Bismarck Municipal",0.0,0.0
+"cat__airport_name_Bloomington/Normal, IL: Central Il Regional Airport at Bloomington",0.0,0.0
+"cat__airport_name_Boise, ID: Boise Air Terminal",0.0,0.0
+"cat__airport_name_Boston, MA: Logan International",0.0,0.0
+"cat__airport_name_Bozeman, MT: Bozeman Yellowstone International",0.0,0.0
+"cat__airport_name_Brainerd, MN: Brainerd Lakes Regional",0.0,0.0
+"cat__airport_name_Branson, MO: Branson Airport",0.0,0.0
+"cat__airport_name_Bristol/Johnson City/Kingsport, TN: Tri Cities",0.0,0.0
+"cat__airport_name_Brownsville, TX: Brownsville South Padre Island International",0.0,0.0
+"cat__airport_name_Brunswick, GA: Brunswick Golden Isles",0.0,0.0
+"cat__airport_name_Buffalo, NY: Buffalo Niagara International",0.0,0.0
+"cat__airport_name_Bullhead City, AZ: Laughlin/Bullhead International",0.0,0.0
+"cat__airport_name_Burbank, CA: Bob Hope",0.0,0.0
+"cat__airport_name_Burlington, VT: Burlington International",0.0,0.0
+"cat__airport_name_Butte, MT: Bert Mooney",0.0,0.0
+"cat__airport_name_Cape Girardeau, MO: Cape Girardeau Regional",0.0,0.0
+"cat__airport_name_Carlsbad, CA: McClellan-Palomar",0.0,0.0
+"cat__airport_name_Casper, WY: Casper/Natrona County International",0.0,0.0
+"cat__airport_name_Cedar City, UT: Cedar City Regional",0.0,0.0
+"cat__airport_name_Cedar Rapids/Iowa City, IA: The Eastern Iowa",0.0,0.0
+"cat__airport_name_Champaign/Urbana, IL: University of Illinois/Willard",0.0,0.0
+"cat__airport_name_Charleston, SC: Charleston AFB/International",0.0,0.0
+"cat__airport_name_Charleston/Dunbar, WV: West Virginia International Yeager",0.0,0.0
+"cat__airport_name_Charleston/Dunbar, WV: Yeager",0.0,0.0
+"cat__airport_name_Charlotte Amalie, VI: Cyril E King",0.0,0.0
+"cat__airport_name_Charlotte, NC: Charlotte Douglas International",0.0,0.0
+"cat__airport_name_Charlottesville, VA: Charlottesville Albemarle",0.0,0.0
+"cat__airport_name_Chattanooga, TN: Lovell Field",0.0,0.0
+"cat__airport_name_Cheyenne, WY: Cheyenne Regional/Jerry Olson Field",0.0,0.0
+"cat__airport_name_Chicago, IL: Chicago Midway International",0.0,0.0
+"cat__airport_name_Chicago, IL: Chicago O'Hare International",0.0,0.0
+"cat__airport_name_Chico, CA: Chico Municipal",0.0,0.0
+"cat__airport_name_Christiansted, VI: Henry E. Rohlsen",0.0,0.0
+"cat__airport_name_Cincinnati, OH: Cincinnati/Northern Kentucky International",0.0,0.0
+"cat__airport_name_Clarksburg/Fairmont, WV: North Central West Virginia",0.0,0.0
+"cat__airport_name_Cleveland, OH: Cleveland-Hopkins International",0.0,0.0
+"cat__airport_name_Cody, WY: Yellowstone Regional",0.0,0.0
+"cat__airport_name_Cold Bay, AK: Cold Bay Airport",0.0,0.0
+"cat__airport_name_College Station/Bryan, TX: Easterwood Field",0.0,0.0
+"cat__airport_name_Colorado Springs, CO: City of Colorado Springs Municipal",0.0,0.0
+"cat__airport_name_Columbia, MO: Columbia Regional",0.0,0.0
+"cat__airport_name_Columbia, SC: Columbia Metropolitan",0.0,0.0
+"cat__airport_name_Columbus, GA: Columbus Airport",0.0,0.0
+"cat__airport_name_Columbus, MS: Golden Triangle Regional",0.0,0.0
+"cat__airport_name_Columbus, OH: John Glenn Columbus International",0.0,0.0
+"cat__airport_name_Columbus, OH: Rickenbacker International",0.0,0.0
+"cat__airport_name_Concord, NC: Concord Padgett Regional",0.0,0.0
+"cat__airport_name_Cordova, AK: Merle K Mudhole Smith",0.0,0.0
+"cat__airport_name_Corpus Christi, TX: Corpus Christi International",0.0,0.0
+"cat__airport_name_Crescent City, CA: Jack McNamara Field",0.0,0.0
+"cat__airport_name_Dallas, TX: Dallas Love Field",0.0,0.0
+"cat__airport_name_Dallas/Fort Worth, TX: Dallas/Fort Worth International",0.0,0.0
+"cat__airport_name_Dayton, OH: James M Cox/Dayton International",0.0,0.0
+"cat__airport_name_Daytona Beach, FL: Daytona Beach International",0.0,0.0
+"cat__airport_name_Deadhorse, AK: Deadhorse Airport",0.0,0.0
+"cat__airport_name_Decatur, IL: Decatur Airport",0.0,0.0
+"cat__airport_name_Del Rio, TX: Del Rio International",0.0,0.0
+"cat__airport_name_Denver, CO: Denver International",0.0,0.0
+"cat__airport_name_Des Moines, IA: Des Moines International",0.0,0.0
+"cat__airport_name_Detroit, MI: Detroit Metro Wayne County",0.0,0.0
+"cat__airport_name_Devils Lake, ND: Devils Lake Regional",0.0,0.0
+"cat__airport_name_Dickinson, ND: Dickinson - Theodore Roosevelt Regional",0.0,0.0
+"cat__airport_name_Dillingham, AK: Dillingham Airport",0.0,0.0
+"cat__airport_name_Dodge City, KS: Dodge City Regional",0.0,0.0
+"cat__airport_name_Dothan, AL: Dothan Regional",0.0,0.0
+"cat__airport_name_Dubuque, IA: Dubuque Regional",0.0,0.0
+"cat__airport_name_Duluth, MN: Duluth International",0.0,0.0
+"cat__airport_name_Durango, CO: Durango La Plata County",0.0,0.0
+"cat__airport_name_Eagle, CO: Eagle County Regional",0.0,0.0
+"cat__airport_name_Eau Claire, WI: Chippewa Valley Regional",0.0,0.0
+"cat__airport_name_El Paso, TX: El Paso International",0.0,0.0
+"cat__airport_name_Elko, NV: Elko Regional",0.0,0.0
+"cat__airport_name_Elmira/Corning, NY: Elmira/Corning Regional",0.0,0.0
+"cat__airport_name_Erie, PA: Erie International/Tom Ridge Field",0.0,0.0
+"cat__airport_name_Escanaba, MI: Delta County",0.0,0.0
+"cat__airport_name_Eugene, OR: Mahlon Sweet Field",0.0,0.0
+"cat__airport_name_Evansville, IN: Evansville Regional",0.0,0.0
+"cat__airport_name_Everett, WA: Snohomish County",0.0,0.0
+"cat__airport_name_Fairbanks, AK: Fairbanks International",0.0,0.0
+"cat__airport_name_Fargo, ND: Hector International",0.0,0.0
+"cat__airport_name_Fayetteville, AR: Northwest Arkansas National",0.0,0.0
+"cat__airport_name_Fayetteville, AR: Northwest Arkansas Regional",0.0,0.0
+"cat__airport_name_Fayetteville, NC: Fayetteville Regional/Grannis Field",0.0,0.0
+"cat__airport_name_Flagstaff, AZ: Flagstaff Pulliam",0.0,0.0
+"cat__airport_name_Flint, MI: Bishop International",0.0,0.0
+"cat__airport_name_Florence, SC: Florence Regional",0.0,0.0
+"cat__airport_name_Fort Collins/Loveland, CO: Northern Colorado Regional",0.0,0.0
+"cat__airport_name_Fort Dodge, IA: Fort Dodge Regional",0.0,0.0
+"cat__airport_name_Fort Lauderdale, FL: Fort Lauderdale-Hollywood International",0.0,0.0
+"cat__airport_name_Fort Leonard Wood, MO: Waynesville-St. Robert Regional Forney Field",0.0,0.0
+"cat__airport_name_Fort Myers, FL: Southwest Florida International",0.0,0.0
+"cat__airport_name_Fort Smith, AR: Fort Smith Regional",0.0,0.0
+"cat__airport_name_Fort Wayne, IN: Fort Wayne International",0.0,0.0
+"cat__airport_name_Fresno, CA: Fresno Yosemite International",0.0,0.0
+"cat__airport_name_Gainesville, FL: Gainesville Regional",0.0,0.0
+"cat__airport_name_Garden City, KS: Garden City Regional",0.0,0.0
+"cat__airport_name_Gillette, WY: Gillette Campbell County",0.0,0.0
+"cat__airport_name_Gillette, WY: Northeast Wyoming Regional",0.0,0.0
+"cat__airport_name_Grand Forks, ND: Grand Forks International",0.0,0.0
+"cat__airport_name_Grand Island, NE: Central Nebraska Regional",0.0,0.0
+"cat__airport_name_Grand Junction, CO: Grand Junction Regional",0.0,0.0
+"cat__airport_name_Grand Rapids, MI: Gerald R. Ford International",0.0,0.0
+"cat__airport_name_Great Falls, MT: Great Falls International",0.0,0.0
+"cat__airport_name_Green Bay, WI: Green Bay Austin Straubel International",0.0,0.0
+"cat__airport_name_Greensboro/High Point, NC: Piedmont Triad International",0.0,0.0
+"cat__airport_name_Greenville, NC: Pitt Greenville",0.0,0.0
+"cat__airport_name_Greer, SC: Greenville-Spartanburg International",0.0,0.0
+"cat__airport_name_Guam, TT: Guam International",0.0,0.0
+"cat__airport_name_Gulfport/Biloxi, MS: Gulfport-Biloxi International",0.0,0.0
+"cat__airport_name_Gunnison, CO: Gunnison-Crested Butte Regional",0.0,0.0
+"cat__airport_name_Gustavus, AK: Gustavus Airport",0.0,0.0
+"cat__airport_name_Hagerstown, MD: Hagerstown Regional-Richard A. Henson Field",0.0,0.0
+"cat__airport_name_Hancock/Houghton, MI: Houghton County Memorial",0.0,0.0
+"cat__airport_name_Harlingen/San Benito, TX: Valley International",0.0,0.0
+"cat__airport_name_Harrisburg, PA: Harrisburg International",0.0,0.0
+"cat__airport_name_Hartford, CT: Bradley International",0.0,0.0
+"cat__airport_name_Hattiesburg/Laurel, MS: Hattiesburg-Laurel Regional",0.0,0.0
+"cat__airport_name_Hayden, CO: Yampa Valley",0.0,0.0
+"cat__airport_name_Hays, KS: Hays Regional",0.0,0.0
+"cat__airport_name_Helena, MT: Helena Regional",0.0,0.0
+"cat__airport_name_Hibbing, MN: Range Regional",0.0,0.0
+"cat__airport_name_Hilo, HI: Hilo International",0.0,0.0
+"cat__airport_name_Hilton Head, SC: Hilton Head Airport",0.0,0.0
+"cat__airport_name_Hobbs, NM: Lea County Regional",0.0,0.0
+"cat__airport_name_Honolulu, HI: Daniel K Inouye International",0.0,0.0
+"cat__airport_name_Houston, TX: George Bush Intercontinental/Houston",0.0,0.0
+"cat__airport_name_Houston, TX: William P Hobby",0.0,0.0
+"cat__airport_name_Huntsville, AL: Huntsville International-Carl T Jones Field",0.0,0.0
+"cat__airport_name_Hyannis, MA: Barnstable Municipal-Boardman/Polando Field",0.0,0.0
+"cat__airport_name_Hyannis, MA: Cape Cod Gateway",0.0,0.0
+"cat__airport_name_Idaho Falls, ID: Idaho Falls Regional",0.0,0.0
+"cat__airport_name_Indianapolis, IN: Indianapolis International",0.0,0.0
+"cat__airport_name_International Falls, MN: Falls International Einarson Field",0.0,0.0
+"cat__airport_name_Inyokern, CA: Inyokern Airport",0.0,0.0
+"cat__airport_name_Iron Mountain/Kingsfd, MI: Ford",0.0,0.0
+"cat__airport_name_Islip, NY: Long Island MacArthur",0.0,0.0
+"cat__airport_name_Ithaca/Cortland, NY: Ithaca Tompkins International",0.0,0.0
+"cat__airport_name_Ithaca/Cortland, NY: Ithaca Tompkins Regional",0.0,0.0
+"cat__airport_name_Jackson, WY: Jackson Hole",0.0,0.0
+"cat__airport_name_Jackson/Vicksburg, MS: Jackson Medgar Wiley Evers International",0.0,0.0
+"cat__airport_name_Jacksonville, FL: Jacksonville International",0.0,0.0
+"cat__airport_name_Jacksonville/Camp Lejeune, NC: Albert J Ellis",0.0,0.0
+"cat__airport_name_Jamestown, ND: Jamestown Regional",0.0,0.0
+"cat__airport_name_Johnstown, PA: John Murtha Johnstown-Cambria County",0.0,0.0
+"cat__airport_name_Joplin, MO: Joplin Regional",0.0,0.0
+"cat__airport_name_Juneau, AK: Juneau International",0.0,0.0
+"cat__airport_name_Kahului, HI: Kahului Airport",0.0,0.0
+"cat__airport_name_Kalamazoo, MI: Kalamazoo/Battle Creek International",0.0,0.0
+"cat__airport_name_Kalispell, MT: Glacier Park International",0.0,0.0
+"cat__airport_name_Kansas City, MO: Kansas City International",0.0,0.0
+"cat__airport_name_Kearney, NE: Kearney Regional",0.0,0.0
+"cat__airport_name_Ketchikan, AK: Ketchikan International",0.0,0.0
+"cat__airport_name_Key West, FL: Key West International",0.0,0.0
+"cat__airport_name_Killeen, TX: Robert Gray AAF",0.0,0.0
+"cat__airport_name_King Salmon, AK: King Salmon Airport",0.0,0.0
+"cat__airport_name_Klamath Falls, OR: Crater Lake Klamath Regional",0.0,0.0
+"cat__airport_name_Knoxville, TN: McGhee Tyson",0.0,0.0
+"cat__airport_name_Kodiak, AK: Kodiak Airport",0.0,0.0
+"cat__airport_name_Kona, HI: Ellison Onizuka Kona International at Keahole",0.0,0.0
+"cat__airport_name_Kotzebue, AK: Ralph Wien Memorial",0.0,0.0
+"cat__airport_name_La Crosse, WI: La Crosse Regional",0.0,0.0
+"cat__airport_name_Lafayette, LA: Lafayette Regional Paul Fournet Field",0.0,0.0
+"cat__airport_name_Lake Charles, LA: Lake Charles Regional",0.0,0.0
+"cat__airport_name_Lansing, MI: Capital Region International",0.0,0.0
+"cat__airport_name_Laramie, WY: Laramie Regional",0.0,0.0
+"cat__airport_name_Laredo, TX: Laredo International",0.0,0.0
+"cat__airport_name_Las Vegas, NV: Harry Reid International",0.0,0.0
+"cat__airport_name_Las Vegas, NV: McCarran International",0.0,0.0
+"cat__airport_name_Latrobe, PA: Arnold Palmer Regional",0.0,0.0
+"cat__airport_name_Lawton/Fort Sill, OK: Lawton-Fort Sill Regional",0.0,0.0
+"cat__airport_name_Lewisburg, WV: Greenbrier Valley",0.0,0.0
+"cat__airport_name_Lewiston, ID: Lewiston Nez Perce County",0.0,0.0
+"cat__airport_name_Lexington, KY: Blue Grass",0.0,0.0
+"cat__airport_name_Liberal, KS: Liberal Mid-America Regional",0.0,0.0
+"cat__airport_name_Lihue, HI: Lihue Airport",3.2280146e-05,0.0
+"cat__airport_name_Lincoln, NE: Lincoln Airport",0.0,0.0
+"cat__airport_name_Little Rock, AR: Bill and Hillary Clinton Nat Adams Field",0.0,0.0
+"cat__airport_name_Long Beach, CA: Long Beach Airport",8.230671e-05,0.0007631124
+"cat__airport_name_Longview, TX: East Texas Regional",0.0,0.0
+"cat__airport_name_Los Angeles, CA: Los Angeles International",1.8801715e-05,0.0
+"cat__airport_name_Louisville, KY: Louisville Muhammad Ali International",0.0,0.0
+"cat__airport_name_Lubbock, TX: Lubbock Preston Smith International",0.0,0.0
+"cat__airport_name_Lynchburg, VA: Lynchburg Regional/Preston Glenn Field",0.0,0.0
+"cat__airport_name_Madison, WI: Dane County Regional-Truax Field",0.0,0.0
+"cat__airport_name_Mammoth Lakes, CA: Mammoth Lakes Airport",0.0,0.0
+"cat__airport_name_Manchester, NH: Manchester Boston Regional",0.0,0.0
+"cat__airport_name_Manchester, NH: Manchester-Boston Regional",0.0,0.0
+"cat__airport_name_Manhattan/Ft. Riley, KS: Manhattan Regional",0.0,0.0
+"cat__airport_name_Marquette, MI: Marquette Sawyer Regional",0.0,0.0
+"cat__airport_name_Marquette, MI: Sawyer International",0.0,6.791193e-05
+"cat__airport_name_Martha's Vineyard, MA: Martha's Vineyard Airport",0.0,0.0
+"cat__airport_name_Mason City, IA: Mason City Municipal",0.0,0.0
+"cat__airport_name_Medford, OR: Rogue Valley International - Medford",0.0,0.0
+"cat__airport_name_Melbourne, FL: Melbourne International",0.0,0.0
+"cat__airport_name_Melbourne, FL: Melbourne Orlando International",0.0,0.0
+"cat__airport_name_Memphis, TN: Memphis International",0.0,0.0
+"cat__airport_name_Meridian, MS: Key Field",0.0,0.0
+"cat__airport_name_Miami, FL: Miami International",0.0,0.0
+"cat__airport_name_Midland/Odessa, TX: Midland International Air and Space Port",0.0,0.0
+"cat__airport_name_Milwaukee, WI: General Mitchell International",0.0,0.0
+"cat__airport_name_Minneapolis, MN: Minneapolis-St Paul International",0.0,0.0
+"cat__airport_name_Minot, ND: Minot International",0.0,0.0
+"cat__airport_name_Mission/McAllen/Edinburg, TX: McAllen International",0.0,0.0
+"cat__airport_name_Mission/McAllen/Edinburg, TX: McAllen Miller International",0.0,0.0
+"cat__airport_name_Missoula, MT: Missoula International",0.0,0.0
+"cat__airport_name_Missoula, MT: Missoula Montana",0.0,0.0
+"cat__airport_name_Moab, UT: Canyonlands Field",0.0,0.0
+"cat__airport_name_Moab, UT: Canyonlands Regional",0.0,0.0
+"cat__airport_name_Mobile, AL: Mobile Downtown",0.0,0.0
+"cat__airport_name_Mobile, AL: Mobile International",0.0,0.0
+"cat__airport_name_Mobile, AL: Mobile Regional",0.0,0.0
+"cat__airport_name_Modesto, CA: Modesto City-County-Harry Sham Field",0.0,0.0
+"cat__airport_name_Moline, IL: Quad Cities International",0.0,0.0007652491
+"cat__airport_name_Moline, IL: Quad City International",0.0,0.0
+"cat__airport_name_Monroe, LA: Monroe Regional",0.0,0.0
+"cat__airport_name_Monterey, CA: Monterey Regional",3.5378787e-05,0.0
+"cat__airport_name_Montgomery, AL: Montgomery Regional",0.0,0.0
+"cat__airport_name_Montrose/Delta, CO: Montrose Regional",0.0,0.0
+"cat__airport_name_Mosinee, WI: Central Wisconsin",0.0,0.0
+"cat__airport_name_Muskegon, MI: Muskegon County",0.0,0.0
+"cat__airport_name_Myrtle Beach, SC: Myrtle Beach International",0.0,0.0
+"cat__airport_name_Nantucket, MA: Nantucket Memorial",0.0,0.0
+"cat__airport_name_Nashville, TN: Nashville International",0.0,0.0
+"cat__airport_name_New Bern/Morehead/Beaufort, NC: Coastal Carolina Regional",0.0,0.0
+"cat__airport_name_New Haven, CT: Tweed New Haven",0.0,0.0
+"cat__airport_name_New Orleans, LA: Louis Armstrong New Orleans International",0.0,0.0
+"cat__airport_name_New York, NY: John F. Kennedy International",0.0,0.0
+"cat__airport_name_New York, NY: LaGuardia",0.0,0.0
+"cat__airport_name_Newark, NJ: Newark Liberty International",0.0,0.0
+"cat__airport_name_Newburgh/Poughkeepsie, NY: New York Stewart International",0.0,0.0
+"cat__airport_name_Newport News/Williamsburg, VA: Newport News/Williamsburg International",0.0,0.0
+"cat__airport_name_Niagara Falls, NY: Niagara Falls International",0.0,0.0
+"cat__airport_name_Nome, AK: Nome Airport",0.0,0.0
+"cat__airport_name_Norfolk, VA: Norfolk International",0.0,0.0
+"cat__airport_name_North Bend/Coos Bay, OR: Southwest Oregon Regional",5.492092e-05,0.0
+"cat__airport_name_North Platte, NE: North Platte Regional Airport Lee Bird Field",0.0,0.0
+"cat__airport_name_Oakland, CA: Metro Oakland International",0.0,0.0
+"cat__airport_name_Oakland, CA: Metropolitan Oakland International",0.0,0.0
+"cat__airport_name_Ogden, UT: Ogden-Hinckley",0.0,0.0
+"cat__airport_name_Ogdensburg, NY: Ogdensburg International",0.0,0.0
+"cat__airport_name_Oklahoma City, OK: Will Rogers World",0.0,0.0
+"cat__airport_name_Omaha, NE: Eppley Airfield",0.0,0.0
+"cat__airport_name_Ontario, CA: Ontario International",0.0,0.0
+"cat__airport_name_Orlando, FL: Orlando International",0.0,0.0
+"cat__airport_name_Owensboro, KY: Owensboro Daviess County Regional",0.0,0.0
+"cat__airport_name_Paducah, KY: Barkley Regional",0.0,0.0
+"cat__airport_name_Pago Pago, TT: Pago Pago International",8.72488e-05,8.2556675e-05
+"cat__airport_name_Palm Springs, CA: Palm Springs International",0.0,0.0
+"cat__airport_name_Panama City, FL: Northwest Florida Beaches International",0.0,0.0
+"cat__airport_name_Pasco/Kennewick/Richland, WA: Tri Cities",0.0,0.0
+"cat__airport_name_Pellston, MI: Pellston Regional Airport of Emmet County",0.0,0.0
+"cat__airport_name_Pensacola, FL: Pensacola International",0.0,0.0
+"cat__airport_name_Peoria, IL: General Downing - Peoria International",0.0,0.0
+"cat__airport_name_Petersburg, AK: Petersburg James A Johnson",0.0,0.0
+"cat__airport_name_Philadelphia, PA: Philadelphia International",0.0,0.0
+"cat__airport_name_Phoenix, AZ: Phoenix - Mesa Gateway",0.0,0.0
+"cat__airport_name_Phoenix, AZ: Phoenix Sky Harbor International",0.0,0.0
+"cat__airport_name_Pierre, SD: Pierre Regional",0.0,0.0
+"cat__airport_name_Pittsburgh, PA: Pittsburgh International",0.0,0.0
+"cat__airport_name_Plattsburgh, NY: Plattsburgh International",0.0,0.0
+"cat__airport_name_Pocatello, ID: Pocatello Regional",0.0,0.0
+"cat__airport_name_Ponce, PR: Mercedita",0.0,0.0
+"cat__airport_name_Portland, ME: Portland International Jetport",0.0,0.0
+"cat__airport_name_Portland, OR: Portland International",0.0,0.0
+"cat__airport_name_Portsmouth, NH: Portsmouth International at Pease",0.0,0.0
+"cat__airport_name_Prescott, AZ: Prescott Regional Ernest A Love Field",0.0,0.0
+"cat__airport_name_Providence, RI: Rhode Island Tf Green International",0.0,0.0
+"cat__airport_name_Providence, RI: Theodore Francis Green State",0.0,0.0
+"cat__airport_name_Provo, UT: Provo Municipal",0.0,0.0
+"cat__airport_name_Pueblo, CO: Pueblo Memorial",0.0,0.0
+"cat__airport_name_Pullman, WA: Pullman Moscow Regional",0.0,0.0
+"cat__airport_name_Punta Gorda, FL: Punta Gorda Airport",0.0,0.0
+"cat__airport_name_Quincy, IL: Quincy Regional-Baldwin Field",0.0,0.0
+"cat__airport_name_Raleigh/Durham, NC: Raleigh-Durham International",0.0,0.0
+"cat__airport_name_Rapid City, SD: Rapid City Regional",0.0,0.0
+"cat__airport_name_Redding, CA: Redding Municipal",0.0,0.0
+"cat__airport_name_Redding, CA: Redding Regional",0.0,0.0
+"cat__airport_name_Reno, NV: Reno/Tahoe International",0.0,0.0
+"cat__airport_name_Rhinelander, WI: Rhinelander/Oneida County",0.0,0.0
+"cat__airport_name_Richmond, VA: Richmond International",0.0,0.0
+"cat__airport_name_Riverton/Lander, WY: Central Wyoming Regional",0.0,0.0
+"cat__airport_name_Riverton/Lander, WY: Riverton Regional",0.0,0.0
+"cat__airport_name_Roanoke, VA: Roanoke Blacksburg Regional",0.0,0.0
+"cat__airport_name_Roanoke, VA: Roanoke Blacksburg Regional Woodrum Field",0.0,0.0
+"cat__airport_name_Rochester, MN: Rochester International",0.0,0.0
+"cat__airport_name_Rochester, NY: Frederick Douglass Grtr Rochester International",0.0,0.0
+"cat__airport_name_Rochester, NY: Greater Rochester International",0.0,0.0
+"cat__airport_name_Rock Springs, WY: Southwest Wyoming Regional",0.0,0.0
+"cat__airport_name_Rockford, IL: Chicago/Rockford International",0.0,0.0
+"cat__airport_name_Roswell, NM: Roswell Air Center",0.0,0.0
+"cat__airport_name_Roswell, NM: Roswell International Air Center",0.0,0.0
+"cat__airport_name_Sacramento, CA: Sacramento International",0.0,0.0
+"cat__airport_name_Saginaw/Bay City/Midland, MI: MBS International",0.0,0.0
+"cat__airport_name_Saipan, TT: Francisco C. Ada Saipan International",0.0,0.0
+"cat__airport_name_Salina, KS: Salina Regional",0.0,0.0
+"cat__airport_name_Salt Lake City, UT: Salt Lake City International",0.0,0.0
+"cat__airport_name_San Angelo, TX: San Angelo Regional/Mathis Field",0.0,0.0
+"cat__airport_name_San Antonio, TX: San Antonio International",0.0,0.0
+"cat__airport_name_San Diego, CA: San Diego International",0.0,0.0
+"cat__airport_name_San Francisco, CA: San Francisco International",0.0,0.0
+"cat__airport_name_San Jose, CA: Norman Y. Mineta San Jose International",0.0,0.0
+"cat__airport_name_San Juan, PR: Luis Munoz Marin International",0.0,0.0
+"cat__airport_name_San Luis Obispo, CA: San Luis County Regional",0.0,0.0
+"cat__airport_name_Sanford, FL: Orlando Sanford International",0.0,0.0
+"cat__airport_name_Santa Ana, CA: John Wayne Airport-Orange County",0.0,0.0
+"cat__airport_name_Santa Barbara, CA: Santa Barbara Municipal",0.0,0.0
+"cat__airport_name_Santa Fe, NM: Santa Fe Municipal",0.0,0.0
+"cat__airport_name_Santa Maria, CA: Santa Maria Public/Capt. G. Allan Hancock Field",0.0,0.0
+"cat__airport_name_Santa Rosa, CA: Charles M. Schulz - Sonoma County",0.0,0.0
+"cat__airport_name_Sarasota/Bradenton, FL: Sarasota/Bradenton International",0.0,0.0
+"cat__airport_name_Sault Ste. Marie, MI: Chippewa County International",0.0,0.0
+"cat__airport_name_Savannah, GA: Savannah/Hilton Head International",0.0,0.0
+"cat__airport_name_Scottsbluff, NE: Western Neb. Regional/William B. Heilig Field",0.0,0.0
+"cat__airport_name_Scranton/Wilkes-Barre, PA: Wilkes Barre Scranton International",0.0,0.0
+"cat__airport_name_Seattle, WA: Seattle/Tacoma International",0.0,0.0
+"cat__airport_name_Sheridan, WY: Sheridan County",0.0,0.0
+"cat__airport_name_Shreveport, LA: Shreveport Regional",0.0,0.0
+"cat__airport_name_Sioux City, IA: Sioux Gateway Brig Gen Bud Day Field",0.0,0.0
+"cat__airport_name_Sioux Falls, SD: Joe Foss Field",5.7482393e-05,0.0
+"cat__airport_name_Sitka, AK: Sitka Rocky Gutierrez",0.0,0.0
+"cat__airport_name_South Bend, IN: South Bend International",0.0,0.0
+"cat__airport_name_Spokane, WA: Spokane International",0.0,0.0
+"cat__airport_name_Springfield, IL: Abraham Lincoln Capital",0.0,0.0
+"cat__airport_name_Springfield, MO: Springfield-Branson National",0.0,0.0
+"cat__airport_name_St. Augustine, FL: Northeast Florida Regional",0.0,0.0
+"cat__airport_name_St. Cloud, MN: St. Cloud Regional",0.0,0.0
+"cat__airport_name_St. George, UT: St George Regional",0.0,0.0
+"cat__airport_name_St. Louis, MO: St Louis Lambert International",0.0,0.0
+"cat__airport_name_St. Petersburg, FL: St Pete Clearwater International",0.0,0.0
+"cat__airport_name_State College, PA: University Park",0.0,0.0
+"cat__airport_name_Staunton, VA: Shenandoah Valley Regional",0.0,0.0
+"cat__airport_name_Stillwater, OK: Stillwater Regional",0.0,0.0
+"cat__airport_name_Stockton, CA: Stockton Metro",0.0,0.0
+"cat__airport_name_Stockton, CA: Stockton Metropolitan",0.0,0.0
+"cat__airport_name_Sun Valley/Hailey/Ketchum, ID: Friedman Memorial",0.0,0.0
+"cat__airport_name_Syracuse, NY: Syracuse Hancock International",0.0,0.0
+"cat__airport_name_Tallahassee, FL: Tallahassee International",0.0,0.0
+"cat__airport_name_Tampa, FL: Tampa International",0.0,0.0
+"cat__airport_name_Texarkana, AR: Texarkana Regional-Webb Field",0.0,0.0
+"cat__airport_name_Toledo, OH: Eugene F Kranz Toledo Express",0.0,0.0
+"cat__airport_name_Toledo, OH: Toledo Express",0.0,0.0
+"cat__airport_name_Topeka, KS: Topeka Regional",0.0,0.0
+"cat__airport_name_Traverse City, MI: Cherry Capital",0.0,0.0
+"cat__airport_name_Trenton, NJ: Trenton Mercer",0.0,0.0
+"cat__airport_name_Tucson, AZ: Tucson International",0.0,0.0
+"cat__airport_name_Tulsa, OK: Tulsa International",0.0,0.0
+"cat__airport_name_Twin Falls, ID: Joslin Field - Magic Valley Regional",0.0,0.0
+"cat__airport_name_Tyler, TX: Tyler Pounds Regional",0.0,0.0
+"cat__airport_name_Valdosta, GA: Valdosta Regional",0.0,0.0
+"cat__airport_name_Valparaiso, FL: Eglin AFB Destin Fort Walton Beach",0.0,0.0
+"cat__airport_name_Vernal, UT: Vernal Regional",0.0,0.0
+"cat__airport_name_Victoria, TX: Victoria Regional",0.0,0.0
+"cat__airport_name_Waco, TX: Waco Regional",0.0,0.0
+"cat__airport_name_Walla Walla, WA: Walla Walla Regional",0.0,0.0
+"cat__airport_name_Washington, DC: Ronald Reagan Washington National",2.2588627e-05,0.0
+"cat__airport_name_Washington, DC: Washington Dulles International",0.0,0.0
+"cat__airport_name_Waterloo, IA: Waterloo Regional",0.0,0.0
+"cat__airport_name_Watertown, NY: Watertown International",0.0,0.0
+"cat__airport_name_Watertown, SD: Watertown Regional",0.0,0.0
+"cat__airport_name_Wenatchee, WA: Pangborn Memorial",0.0,0.0
+"cat__airport_name_West Palm Beach/Palm Beach, FL: Palm Beach International",0.0,0.0
+"cat__airport_name_West Yellowstone, MT: Yellowstone",0.0,0.0
+"cat__airport_name_White Plains, NY: Westchester County",0.0,0.0
+"cat__airport_name_Wichita Falls, TX: Sheppard AFB/Wichita Falls Municipal",0.0,0.0
+"cat__airport_name_Wichita, KS: Wichita Dwight D Eisenhower National",0.0,0.0
+"cat__airport_name_Williamsport, PA: Williamsport Regional",0.0,0.0
+"cat__airport_name_Williston, ND: Sloulin Field International",0.0,0.0
+"cat__airport_name_Williston, ND: Williston Basin International",0.0,0.0
+"cat__airport_name_Wilmington, DE: New Castle",0.0,0.0
+"cat__airport_name_Wilmington, NC: Wilmington International",0.0,0.0
+"cat__airport_name_Worcester, MA: Worcester Regional",0.0,0.0
+"cat__airport_name_Wrangell, AK: Wrangell Airport",0.0,0.0
+"cat__airport_name_Yakima, WA: Yakima Air Terminal/McAllister Field",0.0,0.0
+"cat__airport_name_Yakutat, AK: Yakutat Airport",0.0,0.0
+"cat__airport_name_Yuma, AZ: Yuma MCAS/Yuma International",0.0,0.0
+cat__year_2013,0.00080901803,0.00029404342
+cat__year_2014,0.012844375,8.0447506e-05
+cat__year_2015,0.0008666427,0.0004643665
+cat__year_2016,0.0012660956,3.789878e-05
+cat__year_2017,0.0009890252,0.00030679294
+cat__year_2018,0.0,0.00060976535
+cat__year_2019,0.0009783976,0.0005114427
+cat__year_2020,0.04738465,0.00045425328
+cat__year_2021,0.00046053992,0.002129022
+cat__year_2022,0.00065145135,0.0008056172
+cat__year_2023,0.0009678783,0.0013419361
+cat__month_1,3.137472e-05,0.00045038355
+cat__month_2,0.0010485859,0.0009475049
+cat__month_3,0.0,0.00051293266
+cat__month_4,0.0019310241,0.0007293213
+cat__month_5,8.188379e-05,0.00066621345
+cat__month_6,0.010000479,0.0012092087
+cat__month_7,0.00729859,0.0004690741
+cat__month_8,0.00013938046,0.00028907578
+cat__month_9,0.008151118,0.00011183512
+cat__month_10,0.007720386,0.0005556698
+cat__month_11,0.0053368765,0.00054618594
+cat__month_12,0.0019057065,0.0018369509
