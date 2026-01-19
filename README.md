@@ -1,6 +1,6 @@
-# ✈️ US Flights Delay Prediction
+# US Flights Delay Prediction
 
-## 🎯 Objectif du projet
+## Objectif du projet
 
 Ce projet vise à prédire les **retards aériens aux États-Unis** à partir de données historiques agrégées, enrichies par des données météo publiques.
 
@@ -15,7 +15,7 @@ Il propose :
 
 ---
 
-## 📦 Données
+## Données
 
 ### Source
 
@@ -31,7 +31,7 @@ Il propose :
 
 ---
 
-## 🔍 EDA (Exploration des données)
+## EDA (Exploration des données)
 
 Les analyses exploratoires ont mis en évidence :
 
@@ -48,7 +48,7 @@ Ces observations ont guidé :
 
 ---
 
-## 🧠 Modélisation
+## Modélisation
 
 ### Tâches
 
@@ -66,7 +66,7 @@ Ces observations ont guidé :
 
 ---
 
-## 📊 Explicabilité
+## Explicabilité
 
 Les modèles sont expliqués via **SHAP** :
 
@@ -78,7 +78,7 @@ Les sorties sont intégrées dans l’application.
 
 ---
 
-## 🧪 Suivi des expériences
+## Suivi des expériences
 
 * **MLflow** avec backend SQLite
 * Tracking des runs
@@ -87,7 +87,7 @@ Les sorties sont intégrées dans l’application.
 
 ---
 
-## 🌐 API FastAPI
+## API FastAPI
 
 ### Endpoints
 
@@ -98,7 +98,7 @@ L’API charge les modèles de manière paresseuse et valide les entrées via Py
 
 ---
 
-## 🖥️ Application Streamlit
+## Application Streamlit
 
 Fonctionnalités :
 
@@ -110,7 +110,7 @@ Fonctionnalités :
 
 ---
 
-## 🧱 Architecture
+## Architecture
 
           ┌────────────────────┐
           │  Données Trafic US │
@@ -139,7 +139,7 @@ Fonctionnalités :
 
 ---
 
-## ⚠️ Limites
+## Limites
 
 * Données agrégées mensuelles
 * Pas de prédiction temps réel
@@ -147,7 +147,7 @@ Fonctionnalités :
 
 ---
 
-## 🚀 Améliorations futures
+## Améliorations futures
 
 * Données horaires ou journalières
 * Monitoring des dérives
@@ -156,7 +156,7 @@ Fonctionnalités :
 
 ---
 
-## 👤 Auteur
+## Auteur
 
 Projet réalisé dans le cadre d’un parcours Data Science & MLOps
 par **Faycel**.
